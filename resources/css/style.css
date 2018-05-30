@@ -1,0 +1,86 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.header{
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  z-index: 2;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.imglogo{
+  display: flex;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 9.5px;
+}
+
+.navtext{
+  display: inline-flex;
+  margin-right: 20px;
+  color: seashell;
+  text-decoration: underline;
+}
+
+.mission{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin: auto auto;
+  top: 69px;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px
+}
+
+.missiontext{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.teaofthemonth{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: auto auto;
+  position: relative;
+  top: 100px;
+}
+
+.textmonth{
+  display: flex;
+  flex-direction: column;
+}
+
+.imagesmonth{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.month{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.monthimg{
+  display: flex;
+  margin-bottom: 10px;
+}
