@@ -1,5 +1,5 @@
 body{
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
@@ -8,6 +8,7 @@ body{
 }
 
 .header{
+  top: 0;
   height: 69px;
   width: 100%;
   position: fixed;
@@ -34,7 +35,7 @@ body{
   text-decoration: underline;
 }
 
-.mission{
+#mission{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,7 +54,7 @@ body{
   opacity: 0.9;
 }
 
-.teaofthemonth{
+#teaofthemonth{
   display: flex;
   flex-direction: column;
   width: 1000px;
@@ -83,4 +84,69 @@ body{
 .monthimg{
   display: flex;
   margin-bottom: 10px;
+}
+
+#locations{
+  background-image: url("../images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  position: relative;
+  top: 200px;
+}
+
+.locatopic{
+  display: flex;
+}
+
+.threelocations{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.location{
+  display: flex;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.locatext{
+  display: flex;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: auto auto;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  top: 200px;
+}
+
+.foottext{
+  display: flex;
+}
+
+#copy{
+  text-align: left;
+  margin-left: 20px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  position: relative;
+  top: 170px;
 }
